@@ -57,11 +57,6 @@ export default function Navbar() {
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
 
-            {/* Mobile Menu Overlay */}
-            {isMenuOpen && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden" onClick={closeMenu}></div>
-            )}
-
             {/* Mobile Menu - Sliding from Left */}
             <div className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50 lg:hidden ${
                 isMenuOpen ? 'translate-x-0' : '-translate-x-full'
