@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:col-span-5 flex justify-center lg:justify-start order-first lg:order-none">
+          <div className="lg:col-span-5 flex justify-center lg:justify-start">
             <div className="relative">
               <div className="relative bg-cyan-600 w-fit">
                 <Image
@@ -54,7 +54,7 @@ export default function Home() {
                   src={"/arga.png"}
                   width={300}
                   height={300}
-                  className="sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px]"
+                  className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px] object-cover"
                 />
                 <div className="absolute border-2 sm:border-5 border-black top-8 sm:top-15 right-8 sm:right-20 w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] pointer-events-none"></div>
               </div>
